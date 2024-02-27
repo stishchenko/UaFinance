@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item_add_cost"
+        android:icon="@drawable/ic_add_record"
+        android:title="@string/item_add_record"
+        app:showAsAction="always" />
+    <!--<item
+        android:id="@+id/item_change_type"
+        android:icon="@drawable/ic_change_type"
+        android:title="@string/item_change_type"
+        app:showAsAction="ifRoom" />-->
+    <item
+        android:id="@+id/item_sort_list"
+        android:icon="@drawable/ic_sort_list"
+        android:title="@string/item_sort_list"
+        app:showAsAction="ifRoom" />
+
+
+</menu>

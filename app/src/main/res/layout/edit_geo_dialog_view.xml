@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_edit_geo_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="15dp"
+        android:textColor="#1737EA"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/et_edit_geo_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/enter_city"
+        android:inputType="textCapSentences"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/et_edit_geo_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/enter_address"
+        android:inputType="textCapSentences"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_edit_geo_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="15dp"
+        android:textColor="@color/red"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+</LinearLayout>

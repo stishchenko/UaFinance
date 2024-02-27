@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="orange">#FB4308</color>
+    <color name="bright_blue">#1254FB</color>
+    <color name="center_blue">#0D94FB</color>
+    <color name="bright_yellow">#FAE41B</color>
+    <color name="transparent">#00000000</color>
+    <color name="red">#FB0A0A</color>
+
+    <color name="food">#0AC2F1</color>
+    <color name="health">#4ACCC1</color>
+    <color name="home">#109A16</color>
+    <color name="hygiene">#ED82C6</color>
+    <color name="clothes">#92E335</color>
+    <color name="housecosts">#F6E54A</color>
+    <color name="transport">#EDBC27</color>
+    <color name="car">#1D98FA</color>
+    <color name="caffee">#ED437D</color>
+    <color name="cinema">#F12F2F</color>
+    <color name="travel">#3F9C43</color>
+    <color name="education">#62F1B4</color>
+    <color name="hobby">#F66BF2</color>
+    <color name="gifts">#4CAF50</color>
+    <color name="children">#E18D11</color>
+    <color name="pets">#84E1E4</color>
+    <color name="makeup">#BF1BDC</color>
+    <color name="other">#F4DAC0</color>
+</resources>

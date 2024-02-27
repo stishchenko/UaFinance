@@ -1,0 +1,39 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/language_header">
+
+        <ListPreference
+            app:entries="@array/lang_entries"
+            app:entryValues="@array/lang_values"
+            app:key="lang"
+            app:title="@string/lang_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/diagram_header">
+
+        <CheckBoxPreference
+            app:key="diagram"
+            app:title="@string/diagram_title" />
+
+        <SwitchPreferenceCompat
+            app:dependency="diagram"
+            app:key="names"
+            app:title="@string/names_title" />
+
+        <SwitchPreferenceCompat
+            app:dependency="diagram"
+            app:key="values"
+            app:title="@string/values_title" />
+
+        <SwitchPreferenceCompat
+            app:dependency="values"
+            app:key="percent"
+            app:summaryOff="@string/percent_summary_off"
+            app:summaryOn="@string/percent_summary_on"
+            app:title="@string/percent_title" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

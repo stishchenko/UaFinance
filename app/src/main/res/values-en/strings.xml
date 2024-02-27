@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">UaFinance</string>
+    <string name="current_locale">en</string>
+
+    <string name="category_food">Food</string>
+    <string name="category_health">Health</string>
+    <string name="category_home">House</string>
+    <string name="category_hygiene">Hygiene</string>
+    <string name="category_clothes">Clothes</string>
+    <string name="category_housecosts">Utilities</string>
+    <string name="category_transport">Public transport</string>
+    <string name="category_car">Private transport</string>
+    <string name="category_caffee">Cafes and restaurants</string>
+    <string name="category_cinema">Entertainment</string>
+    <string name="category_travel">Travel</string>
+    <string name="category_education">Education</string>
+    <string name="category_hobby">Hobby</string>
+    <string name="category_gifts">Gifts</string>
+    <string name="category_children">Children</string>
+    <string name="category_pets">Pets</string>
+    <string name="category_makeup">Self-care</string>
+    <string name="category_other">Other</string>
+
+    <string name="nav_item_costs">Flow lists</string>
+    <string name="nav_item_map">Costs map</string>
+    <string name="nav_item_statistic">Statistics</string>
+    <string name="red_cat_guard">Red cat is always on guard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="item_add_record">Add record</string>
+    <string name="item_change_type">Change type</string>
+
+    <string name="enter_amount">Enter the amount</string>
+    <string name="enter_date">Enter the date</string>
+    <string name="enter_market_name">Enter the name of the cost place</string>
+    <string name="enter_city">Enter the city</string>
+    <string name="enter_address">Enter the address</string>
+    <string name="add_cheque_photo">Add the cheque photo: </string>
+
+    <string name="date_format">yyyy-MM-dd</string>
+
+    <string name="add_cost_address">Add the address</string>
+    <string name="edit_cost">Edit cost</string>
+    <string name="edit_geo">Edit geodata</string>
+    <string name="edit_photo">Edit photo</string>
+    <string name="delete_cost">Delete cost</string>
+
+    <string name="nav_item_profile">User profile</string>
+    <string name="nav_item_acc_manager">Account manager</string>
+    <string name="nav_item_settings">Settings</string>
+    <string name="get_statistics">Get statistics</string>
+    <string name="statistics_settings">Statistics settings</string>
+
+    <string name="export_data">Export data</string>
+
+    <string name="statistics_type">Statistics type:</string>
+    <string name="by_category">Category</string>
+    <string name="by_market">Cost place</string>
+    <string name="by_geo">Geolocation</string>
+    <string name="setup_date">Setup date parameters</string>
+    <string name="date_month">Month</string>
+    <string name="date_season">Season</string>
+    <string name="date_year">Year</string>
+    <string name="date_period_amount">Period amount:</string>
+
+    <string name="am_add_account">Add account</string>
+    <string name="account_number">Account number</string>
+
+    <string name="user_name">Name:</string>
+    <string name="user_gender">Gender:</string>
+    <string name="user_age">Age:</string>
+    <string name="user_profession">Profession:</string>
+    <string name="user_start_date">Date of creation:</string>
+    <string name="user_working_period">Using period:</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="user_goal">Goal:</string>
+
+    <string name="welcome_title">Welcome to UaFinance</string>
+    <string name="welcome_message">
+        Всі витрати за замовчуванням описуються в українській валюті - гривні.\n
+        Для додавання витрат використовуйте кнопку + у правому верхньому куті екрану.\n
+        Для управління рахунками, пов`язаними з витратами, використовуйте <![CDATA[<font color="#1737EA" >Менеджер рахунків</font>]]>\n
+        Для управління особистими даними використовуйте <![CDATA[<font color="#1737EA" >Профіль користувача</font>]]>
+    </string>
+
+    <string name="number_of_costs">Number of costs: </string>
+    <string name="costs_amount_sum">Total costs amount:</string>
+    <string name="item_sort_list">Sort list</string>
+    <string name="total_amount_text">Total sum</string>
+    <string name="title_delete_cost">Delete cost</string>
+    <string name="message_delete_cost">Are you sure  that you want to delete the cost of category \'%s\' with sum %.2f?</string>
+    <string name="button_no">No</string>
+    <string name="button_yes_delete">Yes, delete</string>
+    <string name="title_edit_cost">Edi cost data</string>
+    <string name="button_edit">Edit</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="enter_cost_sum_text">Enter cost amount</string>
+    <string name="enter_date_text">Enter cost date or - for using the current</string>
+    <string name="failed_date_format_text">Date format is failed</string>
+    <string name="spinner_item_without_account">Without account</string>
+    <string name="title_edit_geo">Edit geodata</string>
+    <string name="specify_city_address_text">You have to specify city and address</string>
+    <string name="specify_city_text">You have to specify city</string>
+    <string name="specify_address_text">Are you sure  that you want to delete the account %s?</string>
+    <string name="no_address_in_city_text">There is no such address in this city</string>
+    <string name="title_enter_cost_data">Enter cost data</string>
+    <string name="button_save">Save</string>
+    <string name="using_period_days">%d days</string>
+    <string name="title_delete_account">Delete account</string>
+    <string name="message_delete_account">Are you sure  that you want to delete the account %s?</string>
+    <string name="title_account_data">Account data</string>
+    <string name="specify_account_number_text">You have specify account number</string>
+    <string name="account_number_have_numbers_text">The account number must consists of numbers only</string>
+    <string name="spinner_item_all_dates">All dates</string>
+    <string name="title_statistics_settings">Statistics settings</string>
+    <string name="no_place">No cost place</string>
+
+    <string name="language_header">Language</string>
+    <string name="diagram_header">Diagram</string>
+    <string name="lang_title">Application language</string>
+    <string name="diagram_title">Setup diagram</string>
+    <string name="names_title">Show categories on chart</string>
+    <string name="values_title">Show values on chart</string>
+    <string name="percent_title">Show percent of values on chart</string>
+    <string name="percent_summary_on">Show value in percent</string>
+    <string name="percent_summary_off">Show values as sums</string>
+    <string name="settings_title">Settings</string>
+</resources>

@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">UaFinance</string>
+    <string name="current_locale">uk</string>
+
+    <string name="category_food">Харчування</string>
+    <string name="category_health">Здоров`я</string>
+    <string name="category_home">Дім</string>
+    <string name="category_hygiene">Гігієна</string>
+    <string name="category_clothes">Одяг</string>
+    <string name="category_housecosts">Комунальні послуги</string>
+    <string name="category_transport">Громадський транспорт</string>
+    <string name="category_car">Персональний транспорт</string>
+    <string name="category_caffee">Кафе та ресторани</string>
+    <string name="category_cinema">Розваги</string>
+    <string name="category_travel">Подорожі</string>
+    <string name="category_education">Освіта</string>
+    <string name="category_hobby">Захоплення</string>
+    <string name="category_gifts">Подарунки</string>
+    <string name="category_children">Діти</string>
+    <string name="category_pets">Домашні улюбленці</string>
+    <string name="category_makeup">Догляд за собою</string>
+    <string name="category_other">Інше</string>
+
+    <string name="nav_item_costs">Списки потоків</string>
+    <string name="nav_item_map">Карта витрат</string>
+    <string name="nav_item_statistic">Статистика</string>
+    <string name="red_cat_guard">Рудий кіт завжди на варті</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="item_add_record">Додати запис</string>
+    <string name="item_change_type">Змінити тип</string>
+
+    <string name="enter_amount">Введіть суму</string>
+    <string name="enter_date">Введіть дату</string>
+    <string name="enter_market_name">Введіть назву місця витрати</string>
+    <string name="enter_city">Введіть місто</string>
+    <string name="enter_address">Введіть адресу</string>
+    <string name="add_cheque_photo">Додати фото чеку: </string>
+
+    <string name="date_format">yyyy-MM-dd</string>
+
+    <string name="add_cost_address">Додати адресу</string>
+    <string name="edit_cost">Змінити витрату</string>
+    <string name="edit_geo">Змінити геоданні</string>
+    <string name="edit_photo">Змінити фото</string>
+    <string name="delete_cost">Видалити витрату</string>
+
+    <string name="nav_item_profile">Профіль користувача</string>
+    <string name="nav_item_acc_manager">Менеджер рахунків</string>
+    <string name="nav_item_settings">Налаштування</string>
+    <string name="get_statistics">Отримати статистику</string>
+    <string name="statistics_settings">Налаштування статистики</string>
+
+    <string name="export_data">Експортувати дані</string>
+
+    <string name="statistics_type">Тип статистики:</string>
+    <string name="by_category">Категорії</string>
+    <string name="by_market">Місце витрати</string>
+    <string name="by_geo">Геолокація</string>
+    <string name="setup_date">Налаштувати парамерти дати</string>
+    <string name="date_month">Місяць</string>
+    <string name="date_season">Сезон</string>
+    <string name="date_year">Рік</string>
+    <string name="date_period_amount">Кількість періодів:</string>
+
+    <string name="am_add_account">Додати рахунок</string>
+    <string name="account_number">Номер рахунку</string>
+
+    <string name="user_name">Ім`я:</string>
+    <string name="user_gender">Стать:</string>
+    <string name="user_age">Вік:</string>
+    <string name="user_profession">Професія:</string>
+    <string name="user_start_date">Дата створення:</string>
+    <string name="user_working_period">Період використання:</string>
+    <string name="gender_male">Чоловіча</string>
+    <string name="gender_female">Жіноча</string>
+    <string name="user_goal">Ціль:</string>
+
+    <string name="welcome_title">Ласкаво просимо до UaFinance</string>
+    <string name="welcome_message">
+        Всі витрати за замовчуванням описуються в українській валюті - гривні.\n
+        Для додавання витрат використовуйте кнопку + у правому верхньому куті екрану.\n
+        Для управління рахунками, пов`язаними з витратами, використовуйте <![CDATA[<font color="#1737EA" >Менеджер рахунків</font>]]>\n
+        Для управління особистими даними використовуйте <![CDATA[<font color="#1737EA" >Профіль користувача</font>]]>
+    </string>
+
+    <string name="number_of_costs">Число витрат: </string>
+    <string name="costs_amount_sum">Сума витрат:</string>
+    <string name="item_sort_list">Сортувати список</string>
+
+    <string name="total_amount_text">Загальні сума</string>
+    <string name="title_delete_cost">Видалення витрати</string>
+    <string name="message_delete_cost">Ви певні, що бажаєте видалити витрату категорії \'%s\' сумою %.2f?</string>
+    <string name="button_yes_delete">Так, видалити</string>
+    <string name="button_no">Ні</string>
+    <string name="title_edit_cost">Змінити дані витрати</string>
+    <string name="button_edit">Змінити</string>
+    <string name="button_cancel">Відмінити</string>
+    <string name="enter_cost_sum_text">Введіть сумму витрати</string>
+    <string name="enter_date_text">Введіть дату витрати або - для використання поточної</string>
+    <string name="failed_date_format_text">Формат дати помилковий</string>
+    <string name="spinner_item_without_account">Без рахунку</string>
+    <string name="title_edit_geo">Змінити геодані</string>
+    <string name="specify_city_address_text">Необхідно вказати місто та адресу</string>
+    <string name="specify_city_text">Необхідно вказати місто</string>
+    <string name="specify_address_text">Необхідно вказати адресу</string>
+    <string name="no_address_in_city_text">У цьому місті немає такої адреси</string>
+    <string name="title_enter_cost_data">Введіть дані витрати</string>
+    <string name="button_save">Зберегти</string>
+    <string name="using_period_days">%d днів</string>
+    <string name="title_delete_account">Видалити рахунок</string>
+    <string name="message_delete_account">Ви певні, що бажаєте видалити рахунок %s?</string>
+    <string name="title_account_data">Дані рахунку</string>
+    <string name="specify_account_number_text">Номер рахунку необхідно вказати</string>
+    <string name="account_number_have_numbers_text">Номер рахунку має складатися з цифр</string>
+    <string name="spinner_item_all_dates">Всі дати</string>
+    <string name="title_statistics_settings">Налаштування статитсики</string>
+    <string name="no_place">Місце витрати відсутнє</string>
+
+    <string name="settings_title">Налаштування</string>
+    <string name="language_header">Мова</string>
+    <string name="diagram_header">Діаграма</string>
+    <string name="lang_title">Мова застосування</string>
+    <string name="diagram_title">Налаштувати діаграму</string>
+    <string name="names_title">Показувати назви категорій</string>
+    <string name="values_title">Показувати значення</string>
+    <string name="percent_title">Показувати значення у відсотках</string>
+    <string name="percent_summary_on">Значення буде показано у відсотках</string>
+    <string name="percent_summary_off">Значення буде показано у сумах</string>
+</resources>
